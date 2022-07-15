@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/x-icon" href="images/blacklogo.png">
+    <title>JP | Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+ <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/blacklogo.png" alt="" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="portfolio" id="portfolio">
+        <h1 class heading="heading">My Portfolio</h1>
+
+        <h2>System Projects</h2>
+        <div class="box-container">
+            <div class="box">
+              <a href="https://drive.google.com/drive/folders/1hUeD8t1G48gt1NrdkYQNE9A4WYc2yCaS" target="_blank">
+                <i class="fab fa-google"></i> <br>Team Projects.
+              </a>
+              <p></p>
+            </div>
+        </div>
+
+
+
+
+        
+        <h2>Photography and Photo Editing</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/Portfolio/img1.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/Portfolio/img2.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/Portfolio/img3.jpeg" alt="">
+            </div>
+            <div class="box">
+              <img src="images/Portfolio/i10.jpeg" alt="">
+            </div>
+        </div>
+
+        <h2>Drawings and Illustrations</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/Portfolio/d1.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/Portfolio/d2.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/Portfolio/d3.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="images/Portfolio/j3.jpg" alt="">
+            </div>
+            <!-- <div class="box">
+              <img src="images/Portfolio/l1.jpg" alt="">
+            </div>
+            <div class="box">
+              <img src="images/Portfolio/l2.jpg" alt="">
+            </div> -->
+        </div>
+
+        <h2>CAD Project</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/Portfolio/headphone.jpg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    
+<div class="footer">
+  <div class="share-btn-container">
+    <a href="https://www.facebook.com/jpdg.1485/" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://www.instagram.com/hrjuny_" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/john-paul-de-guzman-649453240/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+<!-- 
+    <a href="https://www.twitter.com/fxjdx2" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a> -->
+
+    <a href="https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=app" target="_blank">
+      <i class="fab fa-google-drive"></i>
+    </a>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- NAVBAR COLOR -->
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction(){
+        if(document.body.scrollTop > 20|| document.documentElement.scrollTop > 20){
+            document.getElementById("navbar").style.backgroundColor = "white";
+        }else{
+            document.getElementById("navbar").style.backgroundColor = "transparent";
+        }
+    }
+</script>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

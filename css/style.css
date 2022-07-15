@@ -1,0 +1,452 @@
+
+.navbar-nav{
+    font-size: 13px;
+    margin: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar ul li a{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+.navbar ul li a{
+    margin-inline: 1rem;
+}
+
+.navbar.nav-toggle
+*{
+    font-family: Arial;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    border:none;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background:var(black);
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section{
+    padding:0 7%;
+    padding-top: 10rem;
+}
+
+
+/* HOME SECTION */
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0,0,0,0.5),#272b2a),url(../images/Portfolio/img5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+.home .image{
+    flex:.5 .5 10rem;
+}
+.home .image{
+    padding-bottom: 70px;
+}
+.home .image img{
+    width:80%;
+    height:80%;
+}
+.home .content{
+    flex:1 1 40rem;
+}
+.home .content h1{
+    font-family: Arial;
+    font-size: 5rem;
+    color: whitesmoke;
+}
+.home .content h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 6rem;
+    color: whitesmoke;
+}
+.home .content p{
+    font-family: arial;
+    font-size: 1.8rem;
+    color: whitesmoke;
+/*    padding:1rem 0; */
+}
+
+.btn{
+    font-family: Arial, 'Lucida Sans';
+    font-size: 1.5rem;
+    padding:6px 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+}
+.btn:hover{
+    background: white;
+}
+
+
+#footer{
+    padding: 100px 0 20px;
+    background: #b3b3b3;
+    
+}
+
+/* SHARE BTN */
+.share-btn-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 50%;
+    transform: translateY(-40%);
+}
+.share-btn-container a i{
+    font-size: 25px;
+}
+.share-btn-container a{
+    margin: 12px 0;
+    transition: 500ms;
+}
+.share-btn-container a:hover{
+    transform: scale(1.2);
+}
+.share-btn-container .fa-facebook{
+    color: black;
+}
+.share-btn-container .fa-instagram{
+    color: black;
+}
+.share-btn-container .fa-twitter{
+    color: black;
+}
+.share-btn-container .fa-google-drive{
+    color: black;
+}
+.share-btn-container .fa-pinterest{
+    color: black;
+}
+.share-btn-container .fa-linkedin{
+    color: black;
+}
+
+
+/* ABOUT SECTION */
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+}
+.about{
+    background: rgb(24, 23, 23);
+}
+.about .image{
+    flex:1 1 40rem;
+}
+
+.about .image img{
+    width:80%;
+}
+
+.about .content{
+    flex:1 1 40rem;
+}
+
+.about .content h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 5rem;
+    font-weight: 100;
+    color:white;
+}
+
+.about .content p{
+    font-family: arial;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: white;
+    padding:1rem 0;
+    line-height: 1.6;
+}
+
+
+
+ 
+/* PORTFOLIO */
+.portfolio{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+.portfolio{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),#3b3b3b),url(../images/Portfolio/bggg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+.portfolio h1{
+    font-size: 5rem;
+}
+.portfolio h2{
+    font-size: 3rem;
+}
+.portfolio p{
+    font-size: 1.5rem;
+}
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+
+}
+.portfolio .box-container .box{
+    height: 26rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+.box-container a{
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+
+.box-container a i{
+    font-size: 25px;
+}
+.box-container a i{
+    margin: 12px 0;
+    transition: 500ms;
+}
+.box-container a i a:hover{
+    transform: scale(1.2);
+}
+.box-container .fa-google{
+    color: white;
+    font-size: 50px;
+}
+
+
+
+/* SERVICE SECTION */
+.description{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.description h2{
+    font-size: 5rem;
+}
+.description p{
+    font-size: 1.5rem;
+}
+.service{
+    min-height: 100vh;
+    background: black;
+}
+.service{
+    background-color: black;
+    padding-bottom: 10rem;
+}
+
+.service .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.service .box-container .box{
+    background:#fff;
+    margin:2rem;
+    padding:1rem;
+    width:30rem;
+    text-align: center;
+    box-shadow: 0 0 .3rem rgba(0,0,0,.3);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.service .box-container .box:hover{
+    background: rgb(158, 156, 156);
+}
+
+.service .box-container .box{
+    transition: all 0.5s ease;
+}
+.service .box-container .box:hover{
+    transform: scale(1.05);
+}
+
+
+.service .box-container .box i{
+    font-size: 4rem;
+    padding:1rem;
+    color:black;
+}
+
+.service .box-container .box h3{
+    font-size: 2rem;
+    color:black;
+}
+
+.service .box-container .box p{
+    font-size: 1.3rem;
+    color:black;
+    padding:1rem;
+}
+
+
+
+
+/* CONTACT SECTION */ 
+.contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact{
+    background: black;
+}
+.contact .content{
+    flex:1 1 40rem;
+    padding:3rem 1rem;
+}
+.contact .content h3{
+    font-family: Arial;
+    font-size: 5rem;
+    color:white;
+}
+
+.contact .content p{
+    font-family: Arial;
+    font-size: 1.5rem;
+    color:white;
+    padding:1rem 0;
+}
+
+.contact .content .icons{
+    font-size: 1.7rem;
+    color:white;
+    padding:.7rem 0;
+}
+
+.contact .content .icons i{
+    padding-right: .5rem;
+    color:var(--gray);
+}
+.contact .picture{
+    flex:1 1 40rem;
+}
+
+.contact .picture img{
+    width:50%;
+}
+.contact{
+    font-family: arial;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/* media queries */
+
+@media (max-width:768px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home .content{
+        text-align: center;
+    }
+
+    .home .content h1{
+        font-size: 4rem;
+    }
+
+    .about .content h1{
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width:500px){
+    .content{
+        padding: 8px 32px;
+    }
+    .share-btn-container{
+        transform: unset;
+        top: unset;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        flex-direction: row;
+        box-shadow: 4px 0 8px rgba(0,0,0,0.3);
+        padding: 16px 0;
+        justify-content: center;
+    }
+    .share-btn-container a{
+        margin: 0 15px;
+    }
+
+}
+
+@media (max-width:500px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    section{
+        padding-top: 5rem;
+    }
+}
